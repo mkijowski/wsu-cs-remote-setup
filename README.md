@@ -49,9 +49,9 @@ install.
 #### Language Support
 We're only going to focus on three languages here: Java, python, and c++.
 
-[Java (JDK)](https://adoptopenjdk.net/?variant=openjdk14&jvmVariant=hotspot)
-[Python (Anaconda)](https://repo.anaconda.com/archive/Anaconda3-2020.07-Windows-x86_64.exe)
-[c++ (MinGW)](https://osdn.net/projects/mingw/releases/p15522)
+* [Java (JDK)](https://adoptopenjdk.net/?variant=openjdk14&jvmVariant=hotspot)
+* [Python (Anaconda)](https://repo.anaconda.com/archive/Anaconda3-2020.07-Windows-x86_64.exe)
+* [c++ (MinGW)](https://osdn.net/projects/mingw/releases/p15522)
 
 We will test these out later.  More instructions to come on all of these...
 
@@ -62,13 +62,14 @@ campus email and a professional username and profile pic since this might be a
 future portfolio for your internships and job search.
 
 After you create an account I would also install the following:
-[Git for Windows](https://git-scm.com/download/win)
-[GitHub Deskop app](https://desktop.github.com/)
+* [Git for Windows](https://git-scm.com/download/win)
+* [GitHub Deskop app](https://desktop.github.com/)
 
 Finally, you may want to bookmark the online [Pro Git](https://git-scm.com/book/en/v2) 
 book as it can come in handy when you've royally screwed something up...
 
 #### Configuring Visual Studio Code
+Search for Wright in the Extensions tab and install the WSU CSE extension
 
 #### Configuring WSL Ubuntu
 Theres a lot to this one so we will start with the basics, this will be built up more 
