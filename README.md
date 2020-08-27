@@ -36,6 +36,8 @@ We will use ninite.com to get the following software:
 * 7-Zip
 * Steam... (for games ;)
 
+![ninite](images/ninite-lite.png)
+
 After you select what you want from the above click "Get Your Ninite" to get 
 an installer.  Run that installer to install the selected software for you.
 
@@ -52,6 +54,8 @@ We're only going to focus on three languages here: Java, python, and c++.
 * [Java (JDK)](https://adoptopenjdk.net/?variant=openjdk14&jvmVariant=hotspot)
 * [Python (Anaconda)](https://repo.anaconda.com/archive/Anaconda3-2020.07-Windows-x86_64.exe)
 * [c++ (MinGW)](https://osdn.net/projects/mingw/releases/p15522)
+
+![mingw](images/mingw.png)
 
 We will test these out later.  More instructions to come on all of these...
 
@@ -70,6 +74,8 @@ book as it can come in handy when you've royally screwed something up...
 
 #### Configuring Visual Studio Code
 Search for Wright in the Extensions tab and install the WSU CSE extension
+
+![vscode image](images/vscode.png)
 
 #### Configuring WSL Ubuntu
 Theres a lot to this one so we will start with the basics, this will be built up more 
