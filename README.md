@@ -7,7 +7,7 @@ State University.
 ### Starting point
 We're assuming you have a windows 10 system that is fully updated.  There 
 will be some Mac and Linux tips towards the end but Mac OS does not support
-all fo the needed software in our program (without some paid licenses) and if
+all of the needed software in our program (without some paid licenses) and if
 you are using linux you should be good to go out of the box (for the most part).
 
 ### Getting your system ready for coding
@@ -41,10 +41,10 @@ We will use ninite.com to get the following software:
 After you select what you want from the above click "Get Your Ninite" to get 
 an installer.  Run that installer to install the selected software for you.
 
-In addition to the tools from ninite, I would strongle recommend [MobaXterm](https://mobaxterm.mobatek.net/download.html).
+In addition to the tools from ninite, I would strongly recommend [MobaXterm](https://mobaxterm.mobatek.net/download.html).
 Mobaxterm provides a great interface to the Windows Subsystem for Linux tools
 we installed earlier.  Speaking of, now that Mobaxterm is installed we should 
-finish setting up WSL Ubuntu by launching mobaxterm, selecting a WSL ubuntu
+finish setting up WSL Ubuntu by launching Mobaxterm, selecting a WSL ubuntu
 terminal, and creating a username and password for our new WSLinux Ubunutu 
 install.
 
