@@ -52,12 +52,14 @@ install.
 We're only going to focus on three languages here: Java, python, and c++.
 
 * [Java (JDK)](https://adoptopenjdk.net/?variant=openjdk14&jvmVariant=hotspot)
+  * For this installer just accept all defaults and you're done
 * [Python (Anaconda)](https://repo.anaconda.com/archive/Anaconda3-2020.07-Windows-x86_64.exe)
+  * For Anaconda, accept all defaults up until the Advanced Options screen.  On this screen select `Add Anaconda3 to my PATH environment variable`.
+  * ![anaconda](images/anaconda.png) 
 * [c++ (MinGW)](https://osdn.net/projects/mingw/releases/p15522)
-
-![mingw](images/mingw.png)
-
-We will test these out later.  More instructions to come on all of these...
+  * This is just the MinGW installer installer, once you install it you need to run it and select the following packages for installation
+    ![mingw](images/mingw.png)
+  * After you select the above packages click on `Installation > Apply Changes` to install the selected packages.
 
 #### Git
 Next, you will need an account with GitHub, which is free.  Simply head to 
@@ -67,6 +69,13 @@ future portfolio for your internships and job search.
 
 After you create an account I would also install the following:
 * [Git for Windows](https://git-scm.com/download/win)
+  * Accept defaults until you get to the `Choosing the default editor used by Git` screen, on this I would recommend selecting Visual Studio Code (not insider build) from the dropdown.
+  * ![git](images/git.png)
+  * Accept all other defaults
+  * After installation, run the Git Bash program and execute the following commands:
+    * `git config --global user.name "Your Name"`
+    * `git config --global user.email "youremail@yourdomain.com"`
+    * Note, substitute your name and email in the above commands inside the quote (keep the quotation marks)
 * [GitHub Desktop app](https://desktop.github.com/)
 
 Finally, you may want to bookmark the online [Pro Git](https://git-scm.com/book/en/v2) 
