@@ -19,7 +19,9 @@ you are using Linux you should be good to go out of the box (for the most part).
   of here "natural scrolling" (this is obviously a personally preference but if you 
   prefer otherwise you might be wrong).
 * [Enable Windows Subsystem for Linux.](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-* Install Ubuntu 20.04 from the [Microsoft Store](https://aka.ms/wslstore)
+* Install Ubuntu 20.04 from the [Microsoft Store](https://aka.ms/wslstore) 
+
+---
 
 ### Basic Software
 There is a great website I have been using for years that downloads and installs
@@ -47,6 +49,7 @@ we installed earlier.  Speaking of, now that Maxterm is installed we should
 finish setting up WSL Ubuntu by launching MobaXterm, selecting a WSL ubuntu
 terminal, and creating a username and password for our new WSLinux Ubuntu 
 install.
+---
 
 ### Language Support
 We're only going to focus on three languages here: Java, python, and c++.
@@ -73,6 +76,8 @@ We're only going to focus on three languages here: Java, python, and c++.
   * Click the **New** button, enter `C:\MinGW\bin` then click **OK**
   ![new path](images/newpath.png)
 
+---
+
 ### Git
 Next, you will need an account with GitHub, which is free.  Simply head to 
 [GitHub.com](https://github.com/) and sign up.  I would recommend using your 
@@ -93,10 +98,14 @@ After you create an account I would also install the following:
 Finally, you may want to bookmark the online [Pro Git](https://git-scm.com/book/en/v2) 
 book as it can come in handy when you've royally screwed something up...
 
+---
+
 ### Configuring Visual Studio Code
 Search for Wright in the Extensions tab and install the WSU CSE extension
 
 ![VSCode image](images/vscode.png)
+
+---
 
 ### Configuring WSL Ubuntu
 There's a lot to this one so we will start with the basics, this will be built up more 
