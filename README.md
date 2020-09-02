@@ -1,4 +1,4 @@
-## Wright State CS Dept. Setup guide
+# Wright State CS Dept. Setup guide
 
 The purpose of this guide is to get you setup and ready for any software 
 requirements that might come at you during your academic career at Wright 
@@ -10,9 +10,9 @@ will be some Mac and Linux tips towards the end but Mac OS does not support
 all of the needed software in our program (without some paid licenses) and if
 you are using Linux you should be good to go out of the box (for the most part).
 
-### Getting your system ready for coding
+## Getting your system ready for coding
 
-#### Windows system tweaks and installs
+### Windows system tweaks and installs
 * Change your folder options so that you can see hidden files and folders, 
   we're in Computer Scientist, hidden things don't scare us!
 * Trackpad settings, down motion should scroll down, there... I said it, get out
@@ -21,7 +21,7 @@ you are using Linux you should be good to go out of the box (for the most part).
 * [Enable Windows Subsystem for Linux.](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 * Install Ubuntu 20.04 from the [Microsoft Store](https://aka.ms/wslstore)
 
-#### Basic Software
+### Basic Software
 There is a great website I have been using for years that downloads and installs
 a number of packages without any of the bloatware that typically comes with them.
 
@@ -48,7 +48,7 @@ finish setting up WSL Ubuntu by launching MobaXterm, selecting a WSL ubuntu
 terminal, and creating a username and password for our new WSLinux Ubuntu 
 install.
 
-#### Language Support
+### Language Support
 We're only going to focus on three languages here: Java, python, and c++.
 
 * [Java (JDK)](https://adoptopenjdk.net/?variant=openjdk14&jvmVariant=hotspot)
@@ -73,7 +73,7 @@ We're only going to focus on three languages here: Java, python, and c++.
   * Click the **New** button, enter `C:\MinGW\bin` then click **OK**
   ![new path](images/newpath.png)
 
-#### Git
+### Git
 Next, you will need an account with GitHub, which is free.  Simply head to 
 [GitHub.com](https://github.com/) and sign up.  I would recommend using your 
 campus email and a professional username and profile pic since this might be a
@@ -82,7 +82,7 @@ future portfolio for your internships and job search.
 After you create an account I would also install the following:
 * [Git for Windows](https://git-scm.com/download/win)
   * Accept defaults until you get to the `Choosing the default editor used by Git` screen, on this I would recommend selecting Visual Studio Code (not insider build) from the dropdown.
-  * ![git](images/git.png)
+  ![git](images/git.png)
   * Accept all other defaults
   * After installation, run the Git Bash program and execute the following commands:
     * `git config --global user.name "Your Name"`
@@ -93,12 +93,12 @@ After you create an account I would also install the following:
 Finally, you may want to bookmark the online [Pro Git](https://git-scm.com/book/en/v2) 
 book as it can come in handy when you've royally screwed something up...
 
-#### Configuring Visual Studio Code
+### Configuring Visual Studio Code
 Search for Wright in the Extensions tab and install the WSU CSE extension
 
 ![VSCode image](images/vscode.png)
 
-#### Configuring WSL Ubuntu
+### Configuring WSL Ubuntu
 There's a lot to this one so we will start with the basics, this will be built up more 
 next week when we do a Linux night???
 ```
