@@ -53,13 +53,25 @@ We're only going to focus on three languages here: Java, python, and c++.
 
 * [Java (JDK)](https://adoptopenjdk.net/?variant=openjdk14&jvmVariant=hotspot)
   * For this installer just accept all defaults and you're done
+
 * [Python (Anaconda)](https://repo.anaconda.com/archive/Anaconda3-2020.07-Windows-x86_64.exe)
   * For Anaconda, accept all defaults up until the Advanced Options screen.  On this screen select `Add Anaconda3 to my PATH environment variable`.
   * ![anaconda](images/anaconda.png) 
+
 * [c++ (MinGW)](https://osdn.net/projects/mingw/releases/p15522)
   * This is just the MinGW installer installer, once you install it you need to run it and select the following packages for installation
     ![mingw](images/mingw.png)
   * After you select the above packages click on `Installation > Apply Changes` to install the selected packages.
+  * I highly recommend you add the installation path `C:\MinGW\bin` to your default `PATH` environment variable.
+  * Open your file explorer and right click on `This PC` and go to properties.
+  * Click on **Advanced system settings**
+  ![advanced](images/properties.png)
+  * Click on the **Advanced** tab and click the **Environment Variables...** button at the bottom.
+  ![Environment variables](images/env.png)
+  * Click on the **Path** variable in the bottom window and click **Edit...**
+  ![path](images/path.png)
+  * Click the **New** button, enter `C:\MinGW\bin` then click **OK**
+  ![new path](images/newpath.png)
 
 #### Git
 Next, you will need an account with GitHub, which is free.  Simply head to 
