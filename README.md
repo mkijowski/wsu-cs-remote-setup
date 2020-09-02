@@ -49,6 +49,7 @@ we installed earlier.  Speaking of, now that Maxterm is installed we should
 finish setting up WSL Ubuntu by launching MobaXterm, selecting a WSL ubuntu
 terminal, and creating a username and password for our new WSLinux Ubuntu 
 install.
+
 ---
 
 ### Language Support
