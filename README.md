@@ -14,7 +14,7 @@ you are using Linux you should be good to go out of the box (for the most part).
 
 ### Windows system tweaks and installs
 * Change your folder options so that you can see hidden files and folders, 
-  we're in Computer Scientist, hidden things don't scare us!
+  we're in Computer Science, hidden things don't scare us!
 * Trackpad settings, down motion should scroll down, there... I said it, get out
   of here "natural scrolling" (this is obviously a personally preference but if you 
   prefer otherwise you might be wrong).
