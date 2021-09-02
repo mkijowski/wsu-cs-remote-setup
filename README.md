@@ -22,6 +22,7 @@ you are using Linux you should be good to go out of the box (for the most part).
 * Install Ubuntu 20.04 from the [Microsoft Store](https://aka.ms/wslstore) 
 
 ---
+---
 
 ### Basic Software
 There is a great website I have been using for years that downloads and installs
@@ -36,6 +37,7 @@ We will use ninite.com to get the following software:
 * WinSCP
 * Visual Studio Code
 * 7-Zip
+* Java Adopt OpenJDK x64 11.0.11
 * Steam... (for games ;)
 
 ![ninite](images/ninite-lite.png)
@@ -51,11 +53,12 @@ terminal, and creating a username and password for our new WSLinux Ubuntu
 install.
 
 ---
+---
 
 ### Language Support
 We're only going to focus on three languages here: Java, python, and c++.
 
-* [Java (JDK)](https://adoptopenjdk.net/?variant=openjdk14&jvmVariant=hotspot)
+* [Java (JDK)](https://adoptopenjdk.net/?variant=openjdk14&jvmVariant=hotspot).  This should have been installed by default with ninite installer above.
   * For this installer just accept all defaults and you're done
 
 * [Python (Anaconda)](https://repo.anaconda.com/archive/Anaconda3-2020.07-Windows-x86_64.exe)
@@ -78,6 +81,7 @@ We're only going to focus on three languages here: Java, python, and c++.
   ![new path](images/newpath.png)
 
 ---
+---
 
 ### Git
 Next, you will need an account with GitHub, which is free.  Simply head to 
@@ -86,6 +90,7 @@ campus email and a professional username and profile pic since this might be a
 future portfolio for your internships and job search.
 
 After you create an account I would also install the following:
+
 * [Git for Windows](https://git-scm.com/download/win)
   * Accept defaults until you get to the `Choosing the default editor used by Git` screen, on this I would recommend selecting Visual Studio Code (not insider build) from the dropdown.
   ![git](images/git.png)
@@ -106,6 +111,7 @@ Search for Wright in the Extensions tab and install the WSU CSE extension
 
 ![VSCode image](images/vscode.png)
 
+---
 ---
 
 ### Configuring WSL Ubuntu
